@@ -14,7 +14,7 @@ If you want to try it:
 
 This will spin up 6 VMs: Three Swarm Manager nodes (one Leader), and three Swarm Worker nodes. You can modify the size of the cluster by hacking on the Vagrantfile and the Ansible inventory.
 
-You will need Ansible 2.2, Vagrant and Virtualbox. You will also need molecule and docker-py, if you want to run the tests.
+You will need Ansible 2.2+, Vagrant, vagrant-hostmanager plugin and Virtualbox. You will also need molecule and docker-py, if you want to run the tests.
 
 ## You can find the articles related to this repository below:
 
